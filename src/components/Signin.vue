@@ -84,6 +84,7 @@ export default {
       message: ""
     };
   },
+
   methods: {
     signIn() {
       this.$store.dispatch("authorizeUser", {
@@ -91,12 +92,14 @@ export default {
         password: this.password
       });
     },
+
     signUp() {
       this.$store.dispatch("signUp", {
         email: this.login,
         password: this.password
       });
     },
+
     withGoogle() {
       this.$store.dispatch("authorizeWithGoogle");
     }
