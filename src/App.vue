@@ -47,11 +47,11 @@
         </v-avatar>
       </v-btn>
     </v-app-bar>
-    <v-content>
-      <v-container class="fill-height" fluid>
+    <v-main>
+      <v-container fluid>
         <router-view></router-view>
       </v-container>
-    </v-content>
+    </v-main>
     <v-btn bottom color="pink" dark fab fixed right @click="dialog = !dialog">
       <v-icon>mdi-plus</v-icon>
     </v-btn>
