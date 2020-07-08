@@ -8,5 +8,10 @@ module.exports = {
       localeDir: 'locales',
       enableInSFC: false
     }
+  },
+
+  pwa: {
+    name: 'datosvillarricaa-app',
+    themeColor: '#F5A623'
   }
 };

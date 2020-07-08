@@ -1,5 +1,8 @@
 <template>
-  <v-list-item two-line>
+  <v-list-item
+    two-line
+    v-if="user"
+  >
     <v-list-item-avatar>
       <img :src="user.photoURL">
     </v-list-item-avatar>
